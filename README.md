@@ -25,5 +25,5 @@ My name is Henry
 ```
 N.B: You can use either single or double quotes.
 
-###STRING METHODS
+### STRING METHODS
 String Methods are built-in methods you can use on strings in Python.
