@@ -27,3 +27,19 @@ N.B: You can use either single or double quotes.
 
 ### STRING METHODS
 String Methods are built-in methods you can use on strings in Python.
+
+Split(): This method returns a list of all the words in the string.
+
+EXAMPLE 
+```
+Str = Charles Is Here
+```
+
+Str.split( .
+Append():
+Strip():
+Pop():
+Swapcase():
+Upper(): 
+ copies the string and returns it with the first character uppercase and the rest lowercase
+example :
