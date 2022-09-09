@@ -30,13 +30,20 @@ N.B: You can use either single or double quotes.
 String Methods are built-in methods you can use on strings in Python.
 
 
-1. Append(): 
-
-
+1. Append(): The append method adds a single element to an already existing list. Rather than being returned to a new list, the element will be added to the end of the old one.
+ Example:
+ ```
+ String = [Mr John Doe will be home]
+ string Method = string.append(soon)
+ 
+ ```
+ Output:
+ ```
+ [Mr John Doe will be home soon]
+ ```
 
 2. Split(): The split method in Python divides a string into a list of strings by breaking it with the specified separator.
 
-Separator delimiter: This is a separator. The string is split at this separator. If is not specified, any white space acts as a separator.
 
 EXAMPLE 
 ```
@@ -58,6 +65,20 @@ Append():
 Strip():
 Pop():
 Swapcase():
-Upper(): 
- copies the string and returns it with the first character uppercase and the rest lowercase
-example :
+
+Upper():The Upper method copies the string and returns it with the first character uppercase and the rest lowercase
+Example :
+```
+String = [philip]
+ 
+String Method = string.upper(string)
+
+print(string)
+```
+Output:
+
+```
+[Philip]
+
+
+
