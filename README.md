@@ -11,6 +11,7 @@ This tutorial will explain what Python strings means, and teach you the Python s
 
 A string is a character sequence. It is one of the most commonly used data types in Python. It is simple to make by enclosing characters in quotes. Strings are formed by enclosing characters in single or double quotes.
 
+
 Example:
 
 ```
@@ -28,14 +29,31 @@ N.B: You can use either single or double quotes.
 ### STRING METHODS
 String Methods are built-in methods you can use on strings in Python.
 
-Split(): This method returns a list of all the words in the string.
+
+1. Append(): 
+
+
+
+2. Split(): The split method in Python divides a string into a list of strings by breaking it with the specified separator.
+
+Separator delimiter: This is a separator. The string is split at this separator. If is not specified, any white space acts as a separator.
 
 EXAMPLE 
 ```
-Str = Charles Is Here
+String = The Tower's Manager traveled last week.
+
+String Method = string.split('T')
+print(String)
+
 ```
 
-Str.split( .
+Output: 
+```
+[he, ower's, Manager, raveled, las, week.]
+```
+
+
+.
 Append():
 Strip():
 Pop():
