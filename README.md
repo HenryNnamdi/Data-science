@@ -12,14 +12,14 @@ This tutorial will explain what Python strings means, and teach you the Python s
 A string is a character sequence. It is one of the most commonly used data types in Python. It is simple to make by enclosing characters in quotes. Strings are formed by enclosing characters in single or double quotes.
 
 
-Example:
+Example
 
 ```
 myString = "My name is Henry"
 Print(myString)
 ```
 
-Output:
+Output
 
 ```
 My name is Henry
@@ -31,13 +31,13 @@ String Methods are built-in methods you can use on strings in Python.
 
 
 1. Append(): The append method adds a single element to an already existing list. Rather than being returned to a new list, the element will be added to the end of the old one.
- Example:
+ Example
  ```
  String = [Mr John Doe will be home]
  string Method = string.append(soon)
  
  ```
- Output:
+ Output
  ```
  [Mr John Doe will be home soon]
  ```
@@ -54,7 +54,7 @@ print(String)
 
 ```
 
-Output: 
+Output 
 ```
 [he, ower's, Manager, raveled, las, week.]
 ```
@@ -67,7 +67,7 @@ Pop():
 Swapcase():
 
 Upper():The Upper method copies the string and returns it with the first character uppercase and the rest lowercase
-Example :
+Example 
 ```
 String = [philip]
  
@@ -75,7 +75,7 @@ String Method = string.upper(string)
 
 print(string)
 ```
-Output:
+Output
 
 ```
 [Philip]
