@@ -27,7 +27,7 @@ My name is Henry
 N.B: You can use either single or double quotes.
 
 ### STRING METHODS
-String Methods are built-in methods you can use on strings in Python.
+String Methods are built-in methods you can use on strings in Python and we have a lot of string methods used in Python language but we will focus on the most commonly used Python string methods.
 
 
 1. Append(): The append method adds a single element to an already existing list. Rather than being returned to a new list, the element will be added to the end of the old one.
