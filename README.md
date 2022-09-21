@@ -29,56 +29,67 @@ N.B: You can use either single or double quotes.
 ### STRING METHODS
 String Methods are built-in methods you can use on strings in Python and we have a lot of string methods used in Python language but we will focus on the most commonly used Python string methods.
 
-
-1. Append(): The append method adds a single element to an already existing list. Rather than being returned to a new list, the element will be added to the end of the old one.
- Example
- ```
- String = [Mr John Doe will be home]
- string Method = string.append(soon)
+1. Append(): The append method adds a single element to an already existing list. Rather than being returned to a new list, the element will be added to the end of the    old one.
+   Example
+   ```
+   String = [Mr John Doe will be home]
+   string Method = string.append(soon)
  
- ```
- Output
- ```
- [Mr John Doe will be home soon]
- ```
+   ```
+   Output
+   ```
+   [Mr John Doe will be home soon]
+   ```
 
 2. Split(): The split method in Python divides a string into a list of strings by breaking it with the specified separator.
 
 
-EXAMPLE 
-```
-String = The Tower's Manager traveled last week.
+   EXAMPLE 
+   ```
+   String = The Tower's Manager traveled last week.
 
-String Method = string.split('T')
-print(String)
+   String Method = string.split('T')
+   print(String)
 
-```
+   ```
 
-Output 
-```
-[he, ower's, Manager, raveled, las, week.]
-```
+   Output 
+   ```
+   [he, ower's, Manager, raveled, las, week.]
+
+   ```
 
 
-.
-Append():
-Strip():
-Pop():
-Swapcase():
+   .
 
-Upper():The Upper method copies the string and returns it with the first character uppercase and the rest lowercase
-Example 
-```
-String = [philip]
+3. Strip(): is a Python built-in function that returns a copy of the string with both the leading and trailing characters removed.
+4. Pop(): This method removes an element from a given index in a Python list.
+
+   Example
+   
+   ```
+   String = [Philip, Daniel, Rachael, Charles, Ferdinard]
+   string.pop(3)
+   
+   ```
+   Output
+   ```
+    [Philip, Daniel, Rachael, Ferdinard]
+5. Swapcase():
+
+6. Upper():The Upper method copies the string and returns it with the first character uppercase and the rest lowercase
+   Example 
+   ```
+   String = [philip]
  
-String Method = string.upper(string)
+   String Method = string.upper(string)
 
-print(string)
-```
-Output
+   print(string)
+   ```
+   Output
 
-```
-[Philip]
+   ```
+   [Philip]
 
 
 
