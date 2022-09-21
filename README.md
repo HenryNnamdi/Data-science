@@ -1,4 +1,4 @@
-# PYTHON STRINGS WITH COMMONLY USED METHODS IN DATA SCIENCE E.G APPEND (), SPLIT () ETC.
+# PYTHON STRINGS WITH COMMONLY USED METHODS IN DATA SCIENCE E.G APPEND (), SPLIT () ETC. WITH STRING FORMATTING.
 ![image](https://user-images.githubusercontent.com/97627175/188684058-1358d965-249f-4b2a-bf7a-6d5e4b6b1f05.png)
 
 
@@ -63,7 +63,13 @@ String Methods are built-in methods you can use on strings in Python and we have
    .
 
 3. Strip(): is a Python built-in function that returns a copy of the string with both the leading and trailing characters removed.
-4. Pop(): This method removes an element from a given index in a Python list.
+
+   Example
+   
+   ```
+      
+   ```
+5. Pop(): This method removes an element from a given index in a Python list.
 
    Example
    
@@ -75,7 +81,21 @@ String Methods are built-in methods you can use on strings in Python and we have
    Output
    ```
     [Philip, Daniel, Rachael, Ferdinard]
-5. Swapcase():
+5. Swapcase(): This method changes the case of a string from Uppercase to Lowercase and vice versa.
+   Example
+   ```
+   String = [Raphael]
+ 
+   String Method = string.swapcase(string)
+
+   print(string)
+   ```
+   Output
+
+   ```
+   [Raphael]
+   
+   ```
 
 6. Upper():The Upper method copies the string and returns it with the first character uppercase and the rest lowercase
    Example 
